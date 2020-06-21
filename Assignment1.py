@@ -231,14 +231,15 @@ while True:
             elif cChoice==0:
                 break
     elif choice==3:
-        print()
-        print('Do you want to see..')
-        print(" (1) Men's collection")
-        print(" (2) Women's collection")
-        print('Press 0 to exit Boutique')
-        print()
-        bChoice= int(input('Enter number of the operation you want to perform: '))
+        
         while True:
+            print()
+            print('Do you want to see..')
+            print(" (1) Men's collection")
+            print(" (2) Women's collection")
+            print('Press 0 to exit Boutique')
+            print()
+            bChoice= int(input('Enter number of the operation you want to perform: '))
             if bChoice==1:
                 while True:
                     print()
@@ -312,6 +313,11 @@ while True:
             elif bChoice==0:
                 break
     elif choice==0:
+        print('  **** *       * * ***** * *   *  *****   ')
+        print('  *      *   *   *   *   * **  *  *   *   ') 
+        print('  ****     *     *   *   * * * *  *       ')
+        print('  *      *   *   *   *   * *  **  *   *** ')
+        print('  **** *       * *   *   * *   *  ***** * ')
         break
                
 
